@@ -13,10 +13,10 @@ void loop() {
  temperature = dht.readTemperature();
  humidite = dht.readHumidity();
  Serial.print("la temperature est a =");
- Serial.println(temperature);
+ Serial.print(temperature);
  Serial.println("°C");
  Serial.print("l'humidité est a =");
- Serial.println(humidite);
+ Serial.print(humidite);
  Serial.println("%");
  delay(1000);
 }
